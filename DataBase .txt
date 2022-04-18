@@ -1,0 +1,20 @@
+TAble for customer
+//////
+SQL> create table customer (id varchar(10),name varchar (30),address varchar (20),contact number);
+
+Table created
+./
+/
+/
+
+___________________________________________________________________________________
+Create sequence for usersInfo
+create sequence seq;
+
+Table for UsersInfo
+
+create table usersInfo (id number ,name varchar2(30),contact varchar2(15),username varchar2(40),password varchar2(20));
+Insert into table UsersInfo values(seq.nextval,'Aliraza','0798955987','aliraza','rastin');
+_________________________________________________________________________________________________
+
+create sequence seq_customer;
